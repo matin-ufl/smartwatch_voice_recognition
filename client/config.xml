@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/VoiceRecorder2" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+    <tizen:application id="RwZ28ve9Jb.VoiceRecorder2" package="RwZ28ve9Jb" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/network.wifi"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>VoiceRecorder2</name>
+    <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
+    <tizen:privilege name="http://tizen.org/privilege/camera"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/download"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable"/>
+</widget>
